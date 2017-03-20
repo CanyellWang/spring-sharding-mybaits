@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class CustomerContextHolder {
 
     private static  final ThreadLocal<String> contextHolder = new ThreadLocal<String>();
-    private static int DB_COUNT=3;
+    private static int DB_COUNT=1;  //多库改成3
     private static int TABLE_COUNT=2;
     public  static String getCustomerType() {
         return (String) contextHolder.get();
