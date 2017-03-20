@@ -2,9 +2,7 @@ package com.snowcattle.demo.sharding;
 
 import org.springframework.stereotype.Service;
 
-/**
- * Created by jiangwenping on 17/3/6.
- */
+
 @Service
 public class CustomerContextHolder {
 

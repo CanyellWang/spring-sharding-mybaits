@@ -1,9 +1,6 @@
 package com.snowcattle.demo.entity;
 
-/**
- * Created by jiangwenping on 17/3/6.
- * 分表索引
- */
+
 public abstract class AbstractShardingTable {
 
     private Integer sharding_table_index;
